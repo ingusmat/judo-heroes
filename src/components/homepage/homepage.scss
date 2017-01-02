@@ -1,0 +1,52 @@
+.opposite-bio {
+  img.bio-pic {
+    width: 100%;
+  }
+}
+
+.bio {
+  padding-right: 20px;
+  padding-top: 40px;
+  h1 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #627d69;
+    margin-bottom: 10px;
+  }
+  h2, h3 {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 4px;
+  }
+  p {
+    color: #aaaaaa;
+    font-size: 14px;
+  }
+  ul.social-media-links {
+    margin-top: 40px;
+    li {
+      a {
+        display: block;
+        border-radius: 8px;
+        padding: 4px 8px;
+        background-color: #627d69;
+        color: white;
+        i {
+          font-size: 48px;
+          opacity: .8;
+        }
+        &:hover {
+          text-decoration: none;
+          i {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.project-strata {
+  background-color: #627d69;
+  color: white;
+}
